@@ -1,11 +1,20 @@
-img {
-    height: 100px;
-    width: 300px;
-    padding: 20;
-    border: 0;
+@font-face {
+    font-family: 'Courgette';
+    src: url('font/Courgette-Regular.ttf') format('truetype');
 }
 
 body div.header {
-    background: url('images/leavesfall.jpg') no-repeat; 
+    background: url('images/background_header.jpg') no-repeat fixed;
+    background-size: 100%;
+}
 
+.header-top {
+    font-family: 'Courgette';
+    font-size: 65px;
+    color: white;
+}
+
+.title {
+    padding: 60px;
+    position: relative;
 }
