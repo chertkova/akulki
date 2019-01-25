@@ -5,6 +5,7 @@ img {
     border: 0;
 }
 
-.header-top {
-    background-color: darkblue;
+#header {
+    background: url('/images/leavesfall.jpg') no-repeat 
+
 }
